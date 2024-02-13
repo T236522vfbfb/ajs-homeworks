@@ -1,6 +1,33 @@
 {
   "dependencies": {
+    "core-js": "^3.35.1",
     "global": "^4.4.0",
     "http-server": "^14.1.1"
-  }
+  },
+  "name": "defender-game",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T236522vfbfb/ajs-homeworks.git#master"
+  },
+  "keywords": [
+    "game "
+  ],
+  "author": "yutytihg.kdf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T236522vfbfb/ajs-homeworks/issues"
+  },
+  "homepage": "https://github.com/T236522vfbfb/ajs-homeworks/tree/master#readme"
 }
