@@ -11,10 +11,12 @@
   "devDependencies": {
     "@babel/cli": "^7.23.9",
     "@babel/core": "^7.23.9",
-    "@babel/preset-env": "^7.23.9"
+    "@babel/preset-env": "^7.23.9",
+    "eslint": "^8.56.0"
   },
   "scripts": {
     "build": "babel src -d dist",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
