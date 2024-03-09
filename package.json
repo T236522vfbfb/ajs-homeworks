@@ -1,0 +1,11 @@
+{
+  "name": "ajs-homeworks",
+  "version": "1.0.0",
+  "description": "Важно: [Правила оформления вопросов, сообщений о ошибках и проблемах](report-requirements.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
